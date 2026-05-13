@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshBarber — Мужская стрижка в центре города</title>
+  <meta name="description" content="Премиальная мужская парикмахерская. Стрижки, оформление бороды, горячее бритьё. Запись онлайн." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a class="logo" href="#">Fresh<span>Barber</span></a>
+      <nav class="nav-links">
+        <a href="#services">Услуги</a>
+        <a href="#masters">Мастера</a>
+        <a href="#prices">Цены</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a href="#booking" class="btn btn-primary">Записаться</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <span class="badge">Мужская парикмахерская</span>
+      <h1>Выгляди на&nbsp;<span class="accent">миллион</span><br>после каждого визита</h1>
+      <p class="hero-sub">Стрижки, борода, горячее бритьё — всё в одном месте.<br>Работаем без очередей, только по записи.</p>
+      <div class="hero-btns">
+        <a href="#booking" class="btn btn-primary btn-lg">Записаться онлайн</a>
+        <a href="#services" class="btn btn-outline btn-lg">Наши услуги</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>4+</b><span>года работы</span></div>
+        <div class="stat"><b>2000+</b><span>довольных клиентов</span></div>
+        <div class="stat"><b>5★</b><span>средний рейтинг</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <h2>Что мы делаем</h2>
+        <p>Только то, в чём мы действительно хороши</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">✂️</div>
+          <h3>Стрижка</h3>
+          <p>Классические и современные мужские стрижки под ваш тип лица и образ жизни.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🪒</div>
+          <h3>Борода</h3>
+          <p>Оформление, стрижка и моделирование бороды любой длины и формы.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔥</div>
+          <h3>Горячее бритьё</h3>
+          <p>Традиционное бритьё опасной бритвой с горячим полотенцем и маской.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💆</div>
+          <h3>Уход за кожей</h3>
+          <p>Профессиональный уход за кожей лица: маски, скрабы, увлажнение.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MASTERS -->
+  <section class="section section-dark" id="masters">
+    <div class="container">
+      <div class="section-head light">
+        <h2>Наши мастера</h2>
+        <p>Профессионалы с опытом от 3 лет</p>
+      </div>
+      <div class="masters">
+        <div class="master-card">
+          <div class="master-avatar" style="background:#6A5ACD">АК</div>
+          <h3>Алексей Карпов</h3>
+          <span class="master-title">Senior Barber · 6 лет</span>
+          <p>Специализация: классические стрижки, фейд, скин-фейд</p>
+          <div class="master-rating">★★★★★ 5.0</div>
+        </div>
+        <div class="master-card">
+          <div class="master-avatar" style="background:#00CFFF;color:#111">МС</div>
+          <h3>Михаил Соколов</h3>
+          <span class="master-title">Barber · 4 года</span>
+          <p>Специализация: борода, текстурные стрижки, укладка</p>
+          <div class="master-rating">★★★★★ 4.9</div>
+        </div>
+        <div class="master-card">
+          <div class="master-avatar" style="background:#E75480">ИН</div>
+          <h3>Игорь Новиков</h3>
+          <span class="master-title">Barber · 3 года</span>
+          <p>Специализация: горячее бритьё, уход за кожей, дизайн</p>
+          <div class="master-rating">★★★★★ 4.8</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICES -->
+  <section class="section" id="prices">
+    <div class="container">
+      <div class="section-head">
+        <h2>Цены</h2>
+        <p>Честные цены без скрытых доплат</p>
+      </div>
+      <div class="price-table">
+        <div class="price-row">
+          <span>Мужская стрижка</span><span>от 800 ₽</span>
+        </div>
+        <div class="price-row">
+          <span>Стрижка + борода</span><span>от 1200 ₽</span>
+        </div>
+        <div class="price-row">
+          <span>Детская стрижка (до 12 лет)</span><span>от 500 ₽</span>
+        </div>
+        <div class="price-row">
+          <span>Оформление бороды</span><span>от 500 ₽</span>
+        </div>
+        <div class="price-row">
+          <span>Горячее бритьё</span><span>от 700 ₽</span>
+        </div>
+        <div class="price-row">
+          <span>Уход за кожей лица</span><span>от 900 ₽</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="section section-accent" id="booking">
+    <div class="container">
+      <div class="section-head light">
+        <h2>Запись онлайн</h2>
+        <p>Выберите удобное время — ответим в течение 15 минут</p>
+      </div>
+      <form class="booking-form" id="bookingForm">
+        <div class="form-row">
+          <input type="text" placeholder="Ваше имя" required />
+          <input type="tel" placeholder="+7 (___) ___-__-__" required />
+        </div>
+        <div class="form-row">
+          <select>
+            <option value="">Выберите услугу</option>
+            <option>Мужская стрижка</option>
+            <option>Стрижка + борода</option>
+            <option>Горячее бритьё</option>
+            <option>Уход за кожей</option>
+          </select>
+          <select>
+            <option value="">Выберите мастера</option>
+            <option>Алексей Карпов</option>
+            <option>Михаил Соколов</option>
+            <option>Игорь Новиков</option>
+          </select>
+        </div>
+        <input type="date" required />
+        <button type="submit" class="btn btn-primary btn-lg btn-full">Записаться</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="section" id="contacts">
+    <div class="container contacts-grid">
+      <div>
+        <h2>Контакты</h2>
+        <div class="contact-item">📍 Москва, ул. Тверская, 12</div>
+        <div class="contact-item">📞 +7 (495) 123-45-67</div>
+        <div class="contact-item">📱 Telegram: @freshbarber_msk</div>
+        <div class="contact-item">🕐 Пн–Вс: 10:00 – 21:00</div>
+      </div>
+      <div class="map-placeholder">
+        <span>📍 Мы здесь</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <span class="logo">Fresh<span>Barber</span></span>
+      <span>© 2024 FreshBarber. Разработка: <a href="https://t.me/ftpvpn_support">FTPLab</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
